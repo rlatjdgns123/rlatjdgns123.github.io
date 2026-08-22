@@ -8,24 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20260822-2" />
+    <link rel="stylesheet" href="styles.css?v=20260822-3" />
   </head>
   <body>
     <aside class="profile-sidebar" aria-label="블로그 정보와 카테고리">
       <a class="profile-name" href="#top">와세다<br />한국인 공돌이</a>
+      <img class="profile-image" src="assets/profile-example.png" alt="예시 프로필 이미지" />
       <p class="profile-intro">일본에서 배우고,<br />기록하는 공대생입니다.</p>
       <div class="sidebar-rule"></div>
       <nav class="category-nav" aria-label="카테고리">
         <p class="sidebar-label">CATEGORIES</p>
-        <a href="#topics"><span>전체보기</span><b>4</b></a>
-        <a href="#topics"><span>학업</span><b>1</b></a>
-        <a href="#topics"><span>일본 일상</span><b>1</b></a>
-        <a href="#topics"><span>일본 유학</span><b>1</b></a>
-        <a href="#topics"><span>일본 취직</span><b>1</b></a>
-        <a href="#topics"><span>와세다대학</span><b>0</b></a>
-        <a href="#topics"><span>도쿄대학</span><b>0</b></a>
-        <a href="#topics"><span>카투사</span><b>0</b></a>
-        <a href="#topics"><span>AI · IT</span><b>0</b></a>
+        <a href="category.html"><span>전체보기</span><b>4</b></a>
+        <a href="category.html?category=academic"><span>학업</span><b>1</b></a>
+        <a href="category.html?category=japan-life"><span>일본 일상</span><b>1</b></a>
+        <a href="category.html?category=study-japan"><span>일본 유학</span><b>1</b></a>
+        <a href="category.html?category=career-japan"><span>일본 취직</span><b>1</b></a>
+        <a href="category.html?category=waseda"><span>와세다대학</span><b>0</b></a>
+        <a href="category.html?category=tokyo-univ"><span>도쿄대학</span><b>0</b></a>
+        <a href="category.html?category=katusa"><span>카투사</span><b>0</b></a>
+        <a href="category.html?category=ai-it"><span>AI · IT</span><b>0</b></a>
       </nav>
     </aside>
     <div class="site-shell">
@@ -66,42 +67,42 @@
             <h2>무엇을 기록하나요?</h2>
           </div>
           <div class="topics-grid">
-            <a href="#recent" class="topic-card study">
+            <a href="category.html?category=academic" class="topic-card study">
               <span class="card-number">01</span>
               <div><span class="topic-kicker">ACADEMIC NOTES</span><h3>학업</h3><p>논문 · 공부 · 모델링</p></div>
               <span class="card-arrow">↗</span>
             </a>
-            <a href="#recent" class="topic-card life">
+            <a href="category.html?category=japan-life" class="topic-card life">
               <span class="card-number">02</span>
               <div><span class="topic-kicker">LIFE IN JAPAN</span><h3>일본 일상</h3><p>집값 · 생활비 · 여행</p></div>
               <span class="card-arrow">↗</span>
             </a>
-            <a href="#recent" class="topic-card abroad">
+            <a href="category.html?category=study-japan" class="topic-card abroad">
               <span class="card-number">03</span>
               <div><span class="topic-kicker">STUDY IN JAPAN</span><h3>일본 유학</h3><p>준비 · 대학 · 생활</p></div>
               <span class="card-arrow">↗</span>
             </a>
-            <a href="#recent" class="topic-card career">
+            <a href="category.html?category=career-japan" class="topic-card career">
               <span class="card-number">04</span>
               <div><span class="topic-kicker">CAREER IN JAPAN</span><h3>일본 취직</h3><p>준비 · 경험 · 정보</p></div>
               <span class="card-arrow">↗</span>
             </a>
-            <a href="#recent" class="topic-card waseda">
+            <a href="category.html?category=waseda" class="topic-card waseda">
               <span class="card-number">05</span>
               <div><span class="topic-kicker">WASEDA UNIVERSITY</span><h3>와세다대학</h3><p>수업 · 연구 · 캠퍼스</p></div>
               <span class="card-arrow">↗</span>
             </a>
-            <a href="#recent" class="topic-card tokyo-univ">
+            <a href="category.html?category=tokyo-univ" class="topic-card tokyo-univ">
               <span class="card-number">06</span>
               <div><span class="topic-kicker">THE UNIVERSITY OF TOKYO</span><h3>도쿄대학</h3><p>수업 · 연구 · 교류</p></div>
               <span class="card-arrow">↗</span>
             </a>
-            <a href="#recent" class="topic-card katusa">
+            <a href="category.html?category=katusa" class="topic-card katusa">
               <span class="card-number">07</span>
               <div><span class="topic-kicker">KATUSA</span><h3>카투사</h3><p>지원 · 훈련 · 경험</p></div>
               <span class="card-arrow">↗</span>
             </a>
-            <a href="#recent" class="topic-card ai-it">
+            <a href="category.html?category=ai-it" class="topic-card ai-it">
               <span class="card-number">08</span>
               <div><span class="topic-kicker">AI &amp; INFORMATION TECHNOLOGY</span><h3>AI · IT</h3><p>모델 · 개발 · 도구</p></div>
               <span class="card-arrow">↗</span>
